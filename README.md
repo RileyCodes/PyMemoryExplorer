@@ -22,7 +22,13 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="#getting-started">Features</a>
+      <a href="#features">Features</a>
+    </li>
+        <li>
+      <a href="#usage">Usage</a>
+    </li>
+        <li>
+      <a href="#known-limitations">Known Limitations</a>
     </li>
   </ol>
 </details>
