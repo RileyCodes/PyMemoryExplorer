@@ -42,6 +42,7 @@ The application of this library may vary. Often this is useful to fetch informat
 
 It can also be used for high-performance debugging needs, where eval is too slow to do the job.
 
+Part of this library contains source code from CPython.
 
 ## Features
 
