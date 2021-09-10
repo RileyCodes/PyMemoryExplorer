@@ -48,7 +48,7 @@ Part of this library contains source code from CPython.
 
 PyMemoryExplorer come with two features:
 
-* Object Scanner - it scans a linked list in CPython named `_gc_head` to find all Python Object that is managed by garbage collector.
+* Object Scanner - it finds the base address of a linked list named  `_gc_head` in CPython and scans it to find all Python Object that the garbage collector manages.
 * Object Parser - it supports to read the memory of a object and parse it into C++ Objects for developer to use
 
 
