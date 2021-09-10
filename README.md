@@ -82,9 +82,9 @@ All the basic data types is supported
 
 ## Known Limitations
 
-* this library is hardcoded for offical CPython 2.7.18 x64, however, only mininal effort should be needed to support that verions architecture and of CPython 
-* The target Python program can be running and change the object while it's reading ,so object parsed can be partial or incorrect in some cases, to avoid this, simply pause the interpreter while reading memory.
-* this library is hard coded to skip object contents too many stuff, such as a dict with 5000+ objects to ensure it's performance, you should read the source code and update them correspondingly
-
+* This library is hardcoded for official CPython 2.7.18 x64. However, only minimal effort should be needed to support other versions 
+ and architecture of CPython 
+* The target Python program can be running and change the object while it's reading, so object parsed can be partial or incorrect in some cases. To avoid this, simply pause the interpreter while reading memory.
+* To ensure its performance, this library is hardcoded to skip object contents too much stuff, such as a `dict` with 10000+ objects. You should read the source code and update them correspondingly
 
 ![image](https://user-images.githubusercontent.com/35380563/132792316-6524983c-3c1d-464b-8c42-73f2ff75b9ff.png)
